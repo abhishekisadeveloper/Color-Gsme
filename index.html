@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mind Game</title>
+</head>
+
+<body>
+    <div class="game-container">
+        <!-- Score Display -->
+        <div class="score">
+            <div class="user">Score</div>
+            <section class="user-scores flex">
+                <div class="score-num-1" id="score-num-1">0</div>
+                <div class="score-num-2" id="score-num-2">0</div>
+            </section>
+        </div>
+
+        <!-- Color Text Display -->
+        <div class="color-text" id="color-text">--</div>
+
+        <!-- Color Buttons -->
+        <div class="buttons-container flex">
+            <button class="color-btn red" id="red"></button>
+            <button class="color-btn blue" id="blue"></button>
+            <button class="color-btn green" id="green"></button>
+            <button class="color-btn black" id="black"></button>
+            <button class="color-btn yellow" id="yellow"></button>
+            <button class="color-btn orange" id="orange"></button>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="action-btn-container flex">
+            <!-- Reset Button -->
+            <div class="reset-btn-container">
+                <button class="reset-btn color-btn" id="reset-btn">Reset</button>
+            </div>
+            
+            <!-- start Button -->
+            <div class="start-btn-container">
+                <button class="start-btn color-btn" id="start-btn">Start</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
